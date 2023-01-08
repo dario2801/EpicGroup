@@ -58,7 +58,7 @@ export default function MenuBar() {
                             <h4 className="my-1" data-aos="fade-up">
                                 Curso 2022-2023
                             </h4>
-                            <a href='https://wa.me/12345678?text=Hola!%20me%20interesa%20ver%20una%20demo%20gratis' target='_blank' rel="noreferrer" className='block no-underline'><Button label="Solicita una clase demo gratis" className="mt-5 mb-3 h-4rem bg-orange-500 border-orange-500" style={{ borderRadius: '50px', width: '350px' }} /></a>
+                            <a href='https://wa.me/12345678?text=Hola!%20me%20interesa%20ver%20una%20demo%20gratis' target='_blank' rel="noreferrer" className='block no-underline'><Button label="Solicita una clase demo gratis" className="mt-5 mb-3 h-4rem bg-orange-500 border-orange-500" style={{ borderRadius: '50px', width: 'auto' }} /></a>
                             <Link to='/onlinecourses' className='block no-underline' style={{ color: '#22AFE4' }}><h3>Cursos online</h3></Link>
                             <Link to='/onlinecourses' className='block no-underline' style={{ color: '#22AFE4' }}><h3>Cursos presenciales</h3></Link>
                         </div>
