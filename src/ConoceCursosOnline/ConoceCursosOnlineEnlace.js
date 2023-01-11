@@ -152,7 +152,7 @@ export default function ConoceCursosOnlineEnlace() {
                                     </span>
                                 </li>
                             </ul>
-                            <Link to='./enrollment' className='block no-underline' style={{ color: '#22AFE4' }}> <Button label="Actívate" className="my-3 w-full h-4rem bg-orange-500 border-orange-500" style={{ borderRadius: '50px' }} /></Link>
+                            <Link to='/enrollment' className='block no-underline' style={{ color: '#22AFE4' }}> <Button label="Actívate" className="my-3 w-full h-4rem bg-orange-500 border-orange-500" style={{ borderRadius: '50px' }} /></Link>
                         </Card>
                     </div>
                     <div className="md:px-5 px-3 md:col-6 col-12 mx-auto my-0 max-w-screen">
@@ -262,7 +262,7 @@ export default function ConoceCursosOnlineEnlace() {
                                     </span>
                                 </li>
                             </ul>
-                            <Link to='./enrollment' className='block no-underline' style={{ color: '#22AFE4' }}><Button label="Actívate" className="md:mt-7 my-3 w-full h-4rem bg-orange-500 border-orange-500" style={{ borderRadius: '50px' }} /></Link>
+                            <Link to='/enrollment' className='block no-underline' style={{ color: '#22AFE4' }}><Button label="Actívate" className="md:mt-6 w-full h-4rem bg-orange-500 border-orange-500" style={{ borderRadius: '50px' }} /></Link>
                         </Card>
                     </div>
                 </div>

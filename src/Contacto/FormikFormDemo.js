@@ -20,6 +20,8 @@ export const FormikFormDemo = () => {
     const countryservice = new CountryService();
 
     useEffect(() => {
+        console.log(fetch('data/countries.json').then(res => res.json())
+        .then(d => d.data));
         fetch('./countries.json').then((res) => { res.json().then((res) => setCountries(res)) }).catch((err) => console.log(err));
     }, []);
 

@@ -1,15 +1,15 @@
 {
-  "name": "web_curso",
+  "homepage": "http://dario2801.github.io/",
+  "name": "EpicGroup",
+  "description": "EpicGroup, tu mejor opcion, modo prueba",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dario2801.github.io/EpicGroup",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "formik": "^2.2.9",
-    "gh-pages": "^4.0.0",
     "primeflex": "^3.3.0",
     "primeicons": "^6.0.1",
     "primereact": "^8.7.3",
@@ -21,8 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
